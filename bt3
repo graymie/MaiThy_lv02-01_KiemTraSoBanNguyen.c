@@ -1,0 +1,20 @@
+#include"stdio.h"
+#include "conio.h"
+#include"math.h"
+int main()
+{
+	float a,b,c,dt;
+	printf("nhap a,b,c");
+	scanf("%f%f%f",&a,&b,&c);
+	dt=b*b-4*a*c;
+	if (dt<0)
+	printf("phuong tinh vo nghiem");
+	else
+	{if (dt=0)
+	printf("phuong trinh co nghiem kep x=%f",(-b/2*a));
+	else 
+	printf("phuong trinh co 2 nghiem x1=%f,\n x2=%f",(-b+sqrt(dt))/2*a,(-b-sqrt(dt))/2*a);}
+	getch();
+	}
+	
+	
