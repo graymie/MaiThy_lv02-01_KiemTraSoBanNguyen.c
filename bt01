@@ -1,0 +1,14 @@
+#include"stdio.h"
+#include "conio.h"
+#include"math.h"
+int main()
+{
+	float a,d;
+	printf("nhap a");
+	scanf("%f",&a);
+	d= a-int(a);
+	if (d=0.5)
+	printf("a la so ban nguyen");
+	else 
+	printf("a k la so ban nguyen");
+	getch();}
