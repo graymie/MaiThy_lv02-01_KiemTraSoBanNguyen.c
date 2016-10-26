@@ -1,0 +1,14 @@
+#include"stdio.h"
+#include "conio.h"
+#include"math.h"
+int main()
+{
+	float a,d;
+	printf("nhap a");
+	scanf("%f",&a);
+	d= int(sqrt(a));
+	if (a-d*d!=0)
+	printf("a khong la so chinh phuong");
+	else 
+	printf("a la so chinh phuong");
+	getch();}
